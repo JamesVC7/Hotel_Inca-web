@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="css/estilos.css">
+    <link rel="stylesheet" href="css/estilos2.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;900&display=swap">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <script src="./js/menu.js"></script>
+</head>
+<body class="backh">
+    <header id="head">
+        <nav class="navbar navbar-default navbar-fixed-top navbar-inverse">
+            <div class="container">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="index.html">Hotel Inca</a>
+                </div>
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="index.html" class="nav_link">Inicio</a></li>
+                        <li><a href="nosotros.html" class="nav_link">Nosotros</a></li>
+                        <li><a href="habitaciones.html" class="nav_link">habitaciones</a></li>
+                        <li><a href="servicios.html" class="nav_link">servicios</a></li>
+                        <li><a href="contacto.html" class="nav_link">contacto</a></li>
+
+                        <!-- botones de login y registro -->
+
+                        <li><a href="login.php" class="boton efecto">Iniciar sesion</a></li>
+                        <li><a href="registrarse.html" class="boton2 efecto2">Registrarse</a></li>
+                    </ul>
+                </div><!-- /.navbar-collapse -->
+            </div><!-- /.container-fluid -->
+        </nav>
+
+        <div class="item active">
+            <!-- Indicators -->
+            <div class="carousel-caption2">
+                    <h2><br><br>Reservar Ahora</h2>
+                    <h4>
+                    <font color="white"> <a href="index.html"> <font color="white">&nbsp;Inicio</a></font> >> Reservar</font>
+                    </h4></div>
+        </div>
+
+    </header>
+    <br>
+<!-- Formulario -->
+<section>
+    <form action="php/reservar.php" method="post">
+        <fieldset class="reserv">
+        <h1>RESERVAR</h1>
+        <h3>Tipo de Habitacion</h3><br>
+            <select id="sl" name="opcion"><option>¿Que habitacion desea?</option>
+                <option>Habitacion Individual Estandar</option>
+                <option>Habitacion Doble Estandar</option>
+                <option>Habitacion Doble con Balcon</option>
+                <option>Habitacion Familiar Estandar</option>
+                <option>Habitacion Matrimonial</option>
+            </select><br><br>
+            <div class="lsit">
+            <div class="fgroup"> 
+            <label for="">Fecha de Entrada: </label>
+            <input type="date" name="fechaE" id="" size="2">
+            </div>   
+            <div class="fgroup">
+            <label for="">Fecha de Salida: </label>
+            <input type="date" name="fechaS" id="" size="2">
+            </div>
+            <div class="fgroup">
+            <label for="">Cantidad de adultos: </label>
+            <input type="number" name="cantA" id="" min="0" max="50">
+            </div>
+            <div class="fgroup">
+            <label for="">Cantidad de niños: </label>
+            <input type="number" name="cantN" id="" min="0" max="50">
+            </div>
+            </div>
+            <br>
+            <h3>Datos Personales</h3><br>
+            <div class="fgroup">
+            <label for="">Nombres y Apellidos</label>
+            <input type="text" name="nombre" id="">
+            </div><br>
+            <div class="lsit">
+            <div class="fgroup">
+            <label for="">DNI</label>
+            <input type="text" name="dni" id="">
+            </div>
+            <div class="fgroup">
+            <label for="">Telefono</label>
+            <input type="text" name="telefono" id="">
+            </div>
+            <div class="fgroup">
+            <label for="">Correo Electronico</label>
+            <input type="email" name="correo" id=""><br><br>
+            </div>
+            </div>
+            <div id="freserva">
+            <input type="submit" value="RESERVAR"/></div>
+        </fieldset>
+        <br>
+    </form>  
+    </section>
+    <div class="textres">
+    <h2 style="color: rgb(231, 137, 61);">Metodos de Pago: </h2>
+    <a href="tarjeta.html" style="color:white; font-size: 25px;">Pago con tarjeta</a>
+    <h3>Pago con yape &nbsp;&nbsp;
+    <img src="./img/yape.png" usemap="#hy" style="width:40px; height: 30px;"></figure>
+            <map name="hy">
+                <area shape="rect" coords="1,0,1277,71" href="QR.html" alt="">
+            </map></h3>
+    <h3>Pago con pagoEfectivo &nbsp;&nbsp;<img src="./img/pago-efectivo.svg" alt="" style="width:60px; height: 30px;"></h3>
+    </div>
+</body>
+</html>

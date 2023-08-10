@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="css/estilos.css">
+    <link rel="stylesheet" href="css/estilos2.css">
+    <link rel="stylesheet" href="css/Cuenta.css">
+</head>
+<body>
+    <div>
+    <div class="textforum1">
+        <h3>
+            <font face="comic sans ms" >Datos de la cuenta bancaria</font>
+        </h3>
+        <p>BCP: XXXXXXXXXXXXXXX</p>
+        <p>BBVA: XXXXXXXXXXXXX</p>
+        <p>INTREBANK: XXXXXXXXXXXXXX</p>
+    </div>
+    </div>
+    <br>
+    <h2>&nbsp; Hacer la transaccion a cualquiera de nuestras cuentas bancarias y subir la captura de la transaccion hecha.</h2>
+    <form style="width: 50%;" action="php/transaccion.php" method="post" enctype="multipart/form-data">
+        <fieldset>
+           <legend>ARCHIVO</legend>
+           Cargar la captura de la transaccion: <br><br/>
+           <input type="file" name="Imagen"/><br><br/>
+           <button type="submit">ENVIAR</button>
+           <a href="reservaciones.html">REGRESAR</a>
+        </fieldset>
+      </form>
+</body>
+</html>
