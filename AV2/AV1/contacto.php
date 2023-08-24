@@ -36,6 +36,11 @@
           }
         }
     </script>
+
+<?php
+session_start();
+?>
+
 </head>
 
 <body class="back">
@@ -50,19 +55,24 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="index.html">Hotel Inca</a>
+                    <a class="navbar-brand" href="index.php">Hotel Inca</a>
                 </div>
 
                 <!-- Collect the nav links, forms, and other content for toggling -->
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 
                     <ul class="nav navbar-nav navbar-right">
-                        <li><a href="index.html" class="nav_link">Inicio</a></li>
-                        <li><a href="nosotros.html" class="nav_link">Nosotros</a></li>
-                        <li><a href="habitaciones.html" class="nav_link">habitaciones</a></li>
-                        <li><a href="servicios.html" class="nav_link">servicios</a></li>
-                        <li><a href="contacto.html" class="nav_link">contacto</a></li>
-
+                        <li><a href="index.php" class="nav_link">Inicio</a></li>
+                        <li><a href="nosotros.php" class="nav_link">Nosotros</a></li>
+                        <li><a href="habitaciones.php" class="nav_link">habitaciones</a></li>
+                        <li><a href="servicios.php" class="nav_link">servicios</a></li>
+                        <li><a href="contacto.php" class="nav_link">contacto</a></li>
+                        <?php
+                        // Verifica si el usuario está autenticado
+                        if (isset($_SESSION['id'])) {
+                            echo '<li><a href="startbootstrap-sb-admin-gh-pages/startbootstrap-sb-admin-gh-pages/index.php" class="nav_link">Admin</a></li>';
+                        }
+                        ?>
                         <!-- botones de login y registro -->
 
                         <li><a href="login.php" class="boton efecto">Iniciar sesion</a></li>

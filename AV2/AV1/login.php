@@ -3,7 +3,7 @@ require "./startbootstrap-sb-admin-gh-pages/startbootstrap-sb-admin-gh-pages/con
 session_start();
 
 if (isset($_SESSION['id'])) {
-    header("Location: index2.html");
+    header("Location: index.php");
             exit();
         }
 if ($_SERVER["REQUEST_METHOD"] === "POST") {
@@ -23,7 +23,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
             $_SESSION['nombre'] = $row['nombre'];
             $_SESSION['tipo'] = $row['tipo'];
 
-            header("Location: index2.html");
+            header("Location: index.php");
             exit();
         } else {
             echo '<script language="javascript">alert("Contraseña incorrecta");</script>';
@@ -68,18 +68,18 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="index.html">Hotel Inca</a>
+                    <a class="navbar-brand" href="index.php">Hotel Inca</a>
                 </div>
 
                 <!-- Collect the nav links, forms, and other content for toggling -->
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 
                     <ul class="nav navbar-nav navbar-right">
-                        <li><a href="index.html" class="nav_link">Inicio</a></li>
-                        <li><a href="nosotros.html" class="nav_link">Nosotros</a></li>
-                        <li><a href="habitaciones.html" class="nav_link">habitaciones</a></li>
-                        <li><a href="servicios.html" class="nav_link">servicios</a></li>
-                        <li><a href="contacto.html" class="nav_link">contacto</a></li>
+                        <li><a href="index.php" class="nav_link">Inicio</a></li>
+                        <li><a href="nosotros.php" class="nav_link">Nosotros</a></li>
+                        <li><a href="habitaciones.php" class="nav_link">habitaciones</a></li>
+                        <li><a href="servicios.php" class="nav_link">servicios</a></li>
+                        <li><a href="contacto.php" class="nav_link">contacto</a></li>
 
                         <!-- botones de login y registro -->
 
