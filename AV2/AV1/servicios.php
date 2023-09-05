@@ -118,7 +118,7 @@ session_start();
     </div>
 
     <h2 style="font-size: 50px;line-height: 60px;text-align: center" >
-        <font face="font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif" color="black">
+        <font face="font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif" color="white">
             Servicios del Hotel
         </font>
     </h2>
@@ -126,46 +126,46 @@ session_start();
     <section class="containers2">
         <div class="id">
             <img src="./img/campana (1).png" class="img" alt="">         
-            <h2 style="text-align: center;">Servicio a habitación</h2>
-            <p style="text-align: center;">
+            <h2 style="text-align: center; color: white;">Servicio a habitación</h2>
+            <p style="text-align: center; color: white;">
                 Consiéntase durante el día pidiendo el servicio de alimentos a su habitación, nuestro personal le atenderá con gusto para que usted se sienta como en casa. Servicio las 24 horas
             </p>
             
         </div>
         <div class="id">
             <img src="./img/wifi (1).png" class="img" alt="">         
-            <h2 style="text-align: center;">Internet Inalámbrico</h2>
-            <p style="text-align: center;">
+            <h2>Internet Inalámbrico</h2>
+            <p>
                 Contamos con el mejor acceso a Internet de Banda Ancha durante las 24hr todos los días del año, lo cual le permitirá transferir archivos, comunicarse mediante video conferencia
             </p>
         </div>
         <div class="id">
             <img src="./img/jacuzzi (1).png" class="img" alt="">         
-            <h2 style="text-align: center;">Jacuzzi en cada cuarto</h2>
-            <p style="text-align: center;">
+            <h2>Jacuzzi en cada cuarto</h2>
+            <p>
                 Es una invitación a combatir el stress - novedoso sistema de hidromasajes que le hará relajarse de todo el estrés personal que posea, nuestro jacuzzi esta implementado adecuadamente.
             </p>
         </div>
         <div class="id">
             <img src="./img/plato (1).png" class="img" alt="">        
-            <h2 style="text-align: center;">Restaurante</h2>
-            <p style="text-align: center;">
+            <h2>Restaurante</h2>
+            <p>
                 Nuestro Hotel cuenta con un restaurant - Bar, donde le brindamos tragos exóticos y típicos del Perú, así como deliciosos platillos nacionales e internacionales
             </p>
             
         </div>
         <div class="id">
             <img src="./img/taxi (1).png" class="img" alt="">        
-            <h2 style="text-align: center;">Recojo de Vuelo o Viaje</h2>
-            <p style="text-align: center;">
+            <h2>Recojo de Vuelo o Viaje</h2>
+            <p>
                 Nuestro servicios de hotel te brinda la opción para que nosotros mismos te recojamos del vuelo o lugar donde estés por un cargo adicional
             </p>
             
         </div>
         <div class="id">
             <img src="./img/estacionamiento (2).png" class="img" alt="">
-            <h2 style="text-align: center;">Estacionamiento</h2>
-            <p style="text-align: center;">
+            <h2>Estacionamiento</h2>
+            <p>
                 Nuestro Hotel cuenta con su propio lugar de estacionamiento amplio donde podrá dejar a nuestro cuidado su vehículo, podrá estar estacionado el tiempo que este en nuestro hotel
             </p>
             

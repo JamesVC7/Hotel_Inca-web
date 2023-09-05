@@ -41,7 +41,7 @@ session_start();
 
 </head>
 
-<body class="back">
+<body>
         <header id="head">
             <nav class="navbar navbar-default navbar-fixed-top navbar-inverse">
                 <div class="container">
@@ -53,7 +53,7 @@ session_start();
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
                         </button>
-                        <a class="navbar-brand" href="index.html">Hotel Inca</a>
+                        <a class="navbar-brand" href="index.php">Hotel Inca</a>
                     </div>
     
                     <!-- Collect the nav links, forms, and other content for toggling -->
@@ -104,8 +104,10 @@ session_start();
             <p>Esta habitacion individual cuenta con entrada privada, vistas al jardín y un patio,
                 recomendable para una sola persona, ademas de tener acceso a los servicios dispuestos en el hotel.
             </p>
-            <a href="habitacion1.html">Ver más</a><br><br>
+            <div class="botones">
+            <a href="habitacion1.html">Ver más</a>
             <a href="reservaciones.html">Reservar</a>
+            </div>
         </div>
         <div class="card">
             <img src="./img/habitacion doble.jpg">
@@ -113,8 +115,10 @@ session_start();
             <p>Esta habitación doble cuenta con patio, entrada privada y TV por cable, recomendable para un maximo
                 de 3 personas (2 adultos y un niño), ademas de tener acceso a todos los servicios dispuestos en el hotel.
             </p>
-            <a href="habitacion2.html">Ver más</a><br><br>
+            <div class="botones">
+            <a href="habitacion2.html">Ver más</a>
             <a href="reservaciones.html">Reservar</a>
+            </div>
         </div>
         <div class="card">
             <img src="./img/habitacion doble2.jpg">
@@ -122,8 +126,10 @@ session_start();
             <p>Esta habitación doble cuenta con patio, entrada privada y TV por cable y un balcon con vista al jardin, 
                 recomendable para un maximo de 3 personas (2 adultos y un niño), ademas de tener acceso a todos los servicios dispuestos en el hotel.
             </p>
-            <a href="habitacion3.html">Ver más</a><br><br>
+            <div class="botones">
+            <a href="habitacion3.html">Ver más</a>
             <a href="reservaciones.html">Reservar</a>
+            </div>
         </div>
     </section>
     <br>
@@ -134,8 +140,10 @@ session_start();
             <p>Esta habitación familiar ofrece vistas a la montaña, entrada privada y patio. Recomendado para 4
                 personas maximo, ademas de tener acceso a todos los servicios dispuestos en el hotel.
             </p>
-            <a href="habitacion4.html">Ver más</a><br><br>
+            <div class="botones">
+            <a href="habitacion4.html">Ver más</a>
             <a href="reservaciones.html">Reservar</a>
+            </div>
         </div>
         <div class="card2">
             <img src="./img/habitacion matrimonial.jpg">
@@ -143,8 +151,10 @@ session_start();
             <p>Esta habitacion matrimonial cuenta con entrada privada, vistas al jardín y un patio,
                 recomendable para parejas, ademas de tener acceso a los servicios dispuestos en el hotel.
             </p>
-            <a href="habitacion5.html">Ver más</a><br><br>
+            <div class="botones">
+            <a href="habitacion5.html">Ver más</a>
             <a href="reservaciones.html">Reservar</a>
+            </div>
         </div>
     </section>
     <br>

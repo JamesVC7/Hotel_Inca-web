@@ -107,18 +107,18 @@ session_start();
                 <legend>
                     <font face="arial black" color="white">Contactenos</font>
                 </legend>
-                <input type="text" name="nombre" id="" size="23" placeholder="Ingrese su nombre y apellidos">
+                <input type="text" name="nombre" id="" size="23" placeholder="Ingrese su nombre y apellidos" required>
                 <br><br>
-                <input type="email" name="correo" id="" placeholder="Ingrese su correo">
+                <input type="email" name="correo" id="" placeholder="Ingrese su correo" required>
                 <br><br>
-                <input type="text" name="telefono" id="" placeholder="Ingrese su telefono">
+                <input type="text" name="telefono" id="" placeholder="Ingrese su telefono" required>
                 <br><br>
-                <input type="text" name="asunto" id="" placeholder="Asunto">
+                <input type="text" name="asunto" id="" placeholder="Asunto" required>
                 <br><br>
                 <label for="">
                     <font color="white">Comentarios</font>
                 </label><br>
-                <textarea name="textArea" id="text" cols="30" rows="10"></textarea><br>
+                <textarea name="textArea" id="text" cols="30" rows="10" required></textarea><br>
                 <input type="submit" value="Enviar">
             </fieldset>
         </form>

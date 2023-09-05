@@ -239,7 +239,8 @@ header .carousel-inner .item {
     margin-left: 2%;
     font-weight: 780;
     font-family:  sans-serif;
-    color: rgba(121, 103, 22, 0.849);
+    color: rgb(199 185 124 / 97%);
+    text-shadow: 1px 1px black;
 }
 .contect{
     width: 100%;

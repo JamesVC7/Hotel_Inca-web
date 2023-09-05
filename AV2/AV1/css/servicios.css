@@ -88,10 +88,13 @@
     width: 65px;
     height: 65px;
     margin: 0px 60px;
+    filter: brightness(100);
 }
 
 .id h2{
     font-family: "appleghotic";
+    text-align: center;
+    color: white;
 }
 
 .id p{
@@ -100,6 +103,8 @@
     margin-block-end: 1em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
+    text-align: center;
+    color: white;
 }
 .id:hover{
     transform: translateY(10px)scale(.9);
@@ -112,6 +117,7 @@
 .separacion img{
     width: 65px;
     height: 65px;
+    filter: brightness(100);
 }
 
 @media(max-width: 1000px){
